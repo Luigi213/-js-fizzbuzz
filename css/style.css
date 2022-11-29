@@ -28,7 +28,7 @@ body{
 
 .box{
     width: calc(100% / 7 - 20px);
-    height: 100px;
+    height: 150px;
     color: black;
     display: flex;
     justify-content: center;
