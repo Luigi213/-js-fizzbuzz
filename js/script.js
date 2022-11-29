@@ -1,4 +1,4 @@
-let container = document.querySelector(".container");
+let content = document.querySelector(".col-content");
 // 1- Creo un algoritmo di numeri che parti da 1 fino 100
 // 1.1 - uso un for per creare algoritmo 
 for(let i=1; i<=100; i++){
@@ -20,7 +20,7 @@ for(let i=1; i<=100; i++){
     if( i % 3 == 0 && i % 5 == 0 ){
         element = '<div class="box box-red">FizzBazz</div>';
     }
-    container.innerHTML += element
+    content.innerHTML += element
     console.log(element)
     console.log(i)
 }

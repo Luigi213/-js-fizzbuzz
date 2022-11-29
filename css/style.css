@@ -4,7 +4,50 @@
     box-sizing: border-box;
 }
 
-.container{
+body{
+    background-color: #083B4C;
+    font-family: 'Roboto', sans-serif;
+}
+
+.row{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.col-title{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    margin: 20px 0;
+}
+
+.col-content{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: calc(100% / 7 - 20px);
+    height: 100px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+
+.box-blue{
+    background-color: #1389B2;
+}
+
+.box-green{
+    background-color: #0CE0A7;
+}
+
+.box-yellow{
+    background-color: #FFD166;
+}
+
+.box-red{
+    background-color: #F0466F;
 }
