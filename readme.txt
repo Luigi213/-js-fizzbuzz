@@ -5,5 +5,6 @@ Scrivi un programma che stampi in console i numeri da 1 a 100, ma che per i mult
 // 2- Imposto delle regole:
     // IF multipli di 3 stampi "Fizz"
     // ELSE IF multipli di 5 stampi “Buzz”
-    // ELSE IF multipli di 3 che di 5 stampi “FizzBuzz”
     // ELSE numero non multipli di 3 e 5
+
+    //IF multipli di 3 che di 5 stampi “FizzBuzz”
