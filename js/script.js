@@ -9,7 +9,7 @@ for(let i=1; i<=100; i++){
         element = '<div class="box box-red">FizzBazz</div>';
     }
     // IF multipli di 3 stampi "Fizz"
-    if(i % 3 == 0){
+    else if(i % 3 == 0){
         element = '<div class="box box-green">Fizz</div>';
     }
     // ELSE IF multipli di 5 stampi “Buzz”
