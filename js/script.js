@@ -3,7 +3,11 @@ let content = document.querySelector(".col-content");
 // 1.1 - uso un for per creare algoritmo 
 for(let i=1; i<=100; i++){
     // 2- Imposto delle regole:
-    let element;
+    let element;    
+    //IF multipli di 3 che di 5 stampi “FizzBuzz”
+    if( i % 3 == 0 && i % 5 == 0 ){
+        element = '<div class="box box-red">FizzBazz</div>';
+    }
     // IF multipli di 3 stampi "Fizz"
     if(i % 3 == 0){
         element = '<div class="box box-green">Fizz</div>';
@@ -16,10 +20,7 @@ for(let i=1; i<=100; i++){
     else{
         element = `<div class="box box-blue">${i}</div>`;
     }
-    //IF multipli di 3 che di 5 stampi “FizzBuzz”
-    if( i % 3 == 0 && i % 5 == 0 ){
-        element = '<div class="box box-red">FizzBazz</div>';
-    }
+    
     content.innerHTML += element
 }
 
